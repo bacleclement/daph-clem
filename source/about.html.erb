@@ -1,24 +1,91 @@
 ---
-title: Le Wagon - Middleman - About
+title: Mariage - Daph - Clém
 ---
 
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
+<div class="banner" style="background-image:  url('../images/gueth-clem-daph.jpg');">
+  <div class="banner-content">
+    <p>Nous sommes ravis et avons hâte de vous accueillir <br>le <strong>31 août prochain pour notre mariage </strong>!</p>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+   <div class="col-md-5 col-xs-12">
+      <%= image_tag "boat.jpg", height: 500, class: "card-img-2" %>
+    </div>
+    <div class="col-md-7 col-xs-12">
+      <div class="roapmap">
+        <p><strong>15h </strong>: Messe à l'église de Guéthary</p>
+        <div class="vertical-line"></div>
+        <p><strong>17h </strong>: Vin d'honneur et soirée au château d'Arcangues</p>
+        <div class="vertical-line"></div>
+        <p><strong>2h à 4h </strong>: Retour en navette </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="banner" style="background-image: url('../images/map-wedding.png');">
+  <div class="banner-content">
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+        <h3 class="text-center">Liste de mariage</h3>
+    </div>
+    <div class="col-md-6 col-md-offset-3 col-xs-12 text-center">
+      <%= image_tag "st-jean.jpg", height: 500, class: "card-img-2" %>
+    </div>
+    <div class="col-xs-12">
+      <p class="text-center" style="margin-bottom: 60px;"><a href="#" style="text-decoration: none;">Cliquez ici<br></a> pour aller sur la liste de mariage.</p>
+    </div>
+  </div>
+</div>
+<div  style="background-color: white">
+  <div class="row">
+    <div class="col-xs-12">
+        <h3 class="text-center">Comment venir ?</h3>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 col-xs-12">
+      <%= image_tag "rhune.jpg", height: 500, class: "card-img-2" %>
+    </div>
+    <div class="col-md-6 col-md-offset-1 col-xs-12">
+      <div class="roapmap">
+        <p><strong>En train</strong></p>
+        <hr>
+        <p>Départ de Paris ou Lille.</p>
+        <p>OuiGo disponibles au départ de Lille ou Paris jusqu'à Bordeaux.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5 col-xs-12">
+      <div class="roapmap">
+        <p><strong>En avion</strong></p>
+        <hr>
+        <p>Départ de Paris ou Lesquin.</p>
+        <p>OuiGo disponibles au départ de Lille ou Paris jusqu'à Bordeaux.</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-md-offset-1 col-xs-12">
+      <%= image_tag "biarritz.jpg", height: 500, class: "card-img-2" %>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+        <h3 class="text-center">Où se loger ?</h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+        <h3 class="text-center">Contacts</h3>
+    </div>
+  </div>
+</div>
+
